@@ -1,7 +1,7 @@
 #ifndef _BACKPORTS_LINUX_COMPILER_TYPES_H
 #define _BACKPORTS_LINUX_COMPILER_TYPES_H 1
 
-#if LINUX_VERSION_IS_GEQ(6,12,1)
+#if LINUX_VERSION_IS_GEQ(6,6,1)
 #include_next <linux/compiler_types.h>
 #endif
 
